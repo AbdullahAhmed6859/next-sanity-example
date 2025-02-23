@@ -20,6 +20,27 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Setting Up Environment Variables
+
+Create a `.env.local` file in the root of your project by copying the contents of `example.env.local`:
+
+```bash
+cp example.env.local .env.local
+```
+
+Update the `.env.local` file with your Sanity project ID and dataset.
+
+## Importing Dummy Data
+
+Download the `production.tar.gz` file from [this link](https://example.com/production.tar.gz).
+
+Then run the following commands to import the dummy data:
+
+```bash
+npx sanity dataset import production.tar.gz production
+rm production.tar.gz
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
