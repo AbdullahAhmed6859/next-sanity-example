@@ -15,15 +15,18 @@
     "@sanity/icons": "^3.6.0",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.76.3",
+    "dayjs": "^1.11.13",
     "next": "15.1.7",
     "next-sanity": "^9.8.59",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-is": "^19.0.0",
     "sanity": "^3.76.3",
     "styled-components": "^6.1.15"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import typography from "@tailwindcss/typography";
 
 export default {
   content: [
@@ -7,7 +8,6 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/sanity/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
-  },
-  plugins: [],
+  theme: {},
+  plugins: [typography],
 } satisfies Config;
